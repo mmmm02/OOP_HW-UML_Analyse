@@ -1,0 +1,31 @@
+public class Person {
+
+    public String name;
+    public int age;
+
+    private int getAge() {
+    return age;
+    }
+
+    public void printinformation() {
+    }
+}
+
+class Instructor extends Person {
+    public void assign(){
+    }
+}
+
+class Student extends Person {
+    protected int year;
+}
+
+class Course {
+    protected String name;
+    protected double grade;
+    }
+
+class Select {
+    protected float mark;
+    protected String location;
+    }
